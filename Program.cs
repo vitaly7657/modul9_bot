@@ -15,7 +15,7 @@ namespace modul9_bot
     {
         static async Task Main(string[] args)
         {
-            var client = new TelegramBotClient("5771966463:AAFw3xgnb7xRZ_Xa1MQjDq1ocpEOzjG0opA"); //токен бота
+            var client = new TelegramBotClient(""); //токен бота
             client.StartReceiving(Update, Error); //обработка методов обновления и ошибки
 
             if (!Directory.Exists(@"download")) //проверка папки для загруженных файлов
